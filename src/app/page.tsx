@@ -4,7 +4,8 @@ import {
   FaMapMarkerAlt, FaPhoneAlt, FaEnvelope,
   FaLinkedin, FaGithub, FaTwitter, FaInstagram,
   FaCode, FaServer, FaDatabase, FaTools,
-  FaCheckCircle, FaPiggyBank, FaLock
+  FaCheckCircle, FaPiggyBank, FaLock,
+  FaExternalLinkAlt
 } from "react-icons/fa";
 import { motion, Variants } from 'framer-motion';
 
@@ -473,6 +474,73 @@ export default function Home() {
                 <FaGithub className="mr-2" /> View Project
               </a>
             </motion.div>
+            <motion.div
+  whileHover={{ y: -5 }}
+  className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-200 hover:shadow-xl transition-all"
+>
+  <div className="flex items-start mb-4">
+    <div className="bg-emerald-100 p-3 rounded-lg mr-4">
+      <FaCode className="text-emerald-600 text-2xl" />
+    </div>
+    <div>
+      <h3 className="text-xl font-semibold text-gray-800">Portfolio Website</h3>
+      <p className="text-emerald-500 text-sm">Personal Branding</p>
+    </div>
+  </div>
+  
+  <p className="text-gray-600 mb-4">
+    My personal developer portfolio showcasing my skills, projects, and contact information.
+    Built with Next.js and featuring smooth animations with Framer Motion.
+  </p>
+  
+  <div className="grid grid-cols-2 gap-4 mb-5">
+    <div>
+      <h4 className="font-medium text-sm text-gray-500 mb-2">Features</h4>
+      <ul className="space-y-1 text-sm">
+        <li className="flex items-center">
+          <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+          Responsive design
+        </li>
+        <li className="flex items-center">
+          <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+          Intersection Observer
+        </li>
+        <li className="flex items-center">
+          <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+          Contact form
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h4 className="font-medium text-sm text-gray-500 mb-2">Tech Stack</h4>
+      <div className="flex flex-wrap gap-2">
+        <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Next.js</span>
+        <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">TypeScript</span>
+        <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Tailwind</span>
+        <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Framer Motion</span>
+      </div>
+    </div>
+  </div>
+
+  <div className="flex space-x-4">
+    <a 
+      href="https://github.com/Doris-Mwito5/my-portfolio" 
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
+    >
+      <FaGithub className="mr-2" /> Source Code
+    </a>
+    <a 
+      href="https://portfolio-54hi-git-main-kawiramwito3-gmailcoms-projects.vercel.app" 
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
+    >
+      <FaExternalLinkAlt className="mr-2" /> Live Demo
+    </a>
+  </div>
+</motion.div>
           </div>
         </div>
       </section>
