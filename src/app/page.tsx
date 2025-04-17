@@ -4,9 +4,7 @@ import {
   FaMapMarkerAlt, FaPhoneAlt, FaEnvelope,
   FaLinkedin, FaGithub, FaTwitter, FaInstagram,
   FaCode, FaServer, FaDatabase, FaTools,
-  FaCheckCircle, FaCogs, FaExchangeAlt, FaHistory,
-  FaLayerGroup, FaMoneyBillWave, FaPiggyBank,
-  FaUserShield, FaProjectDiagram, FaLock
+  FaCheckCircle, FaPiggyBank, FaLock
 } from "react-icons/fa";
 import { motion, Variants } from 'framer-motion';
 
@@ -180,7 +178,7 @@ export default function Home() {
             </span>
             <div className="text-4xl mb-6">👋</div>
             <span className="block mt-4 text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-500 font-extrabold">
-              I'm DORIS KAWIRA MWITO
+              I&apos;m DORIS KAWIRA MWITO
             </span>
           </h1>
           
@@ -229,7 +227,7 @@ export default function Home() {
             <motion.div variants={itemVariants} className="bg-gradient-to-br from-teal-50 to-emerald-50 p-8 rounded-2xl shadow-lg border border-teal-100">
               <h3 className="text-xl font-semibold mb-4 text-emerald-700">Professional Journey</h3>
               <p className="text-gray-700 leading-relaxed">
-                I'm a passionate backend engineer with a deep interest in solving complex problems and building systems that scale.
+                I&apos;m a passionate backend engineer with a deep interest in solving complex problems and building systems that scale.
                 I thrive in environments that value clean code, efficient architecture, and high performance.
               </p>
             </motion.div>
@@ -238,7 +236,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-4 text-emerald-700">Beyond Code</h3>
               <p className="text-gray-700 leading-relaxed">
                 Outside work, I love exploring new technologies, contributing to open-source projects, 
-                and mentoring aspiring developers. When not coding, you'll find me hiking or reading about system design patterns.
+                and mentoring aspiring developers. When not coding, you&apos;ll find me hiking or reading about system design patterns.
               </p>
             </motion.div>
           </motion.div>
@@ -289,195 +287,195 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-<section id="projects" className="py-20 px-4 md:px-8 bg-white">
-  <div className="max-w-6xl mx-auto">
-    <motion.h2
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-emerald-600 sm:text-4xl mb-12"
-    >
-      Projects
-    </motion.h2>
+      <section id="projects" className="py-20 px-4 md:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-3xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-emerald-600 sm:text-4xl mb-12"
+          >
+            Projects
+          </motion.h2>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {/* Banking System */}
-      <motion.div
-        whileHover={{ y: -5 }}
-        className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-500 hover:shadow-xl transition-all"
-      >
-        <div className="flex items-start mb-4">
-          <div className="bg-emerald-100 p-3 rounded-lg mr-4">
-            <FaPiggyBank className="text-emerald-600 text-2xl" />
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-800">Core Banking System</h3>
-            <p className="text-emerald-500 text-sm">Financial Operations</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Banking System */}
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-500 hover:shadow-xl transition-all"
+            >
+              <div className="flex items-start mb-4">
+                <div className="bg-emerald-100 p-3 rounded-lg mr-4">
+                  <FaPiggyBank className="text-emerald-600 text-2xl" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800">Core Banking System</h3>
+                  <p className="text-emerald-500 text-sm">Financial Operations</p>
+                </div>
+              </div>
+              
+              <p className="text-gray-600 mb-4">
+                Full-featured banking application implementing account management, 
+                fund transfers, transaction history, and balance verification.
+              </p>
+              
+              <div className="grid grid-cols-2 gap-4 mb-5">
+                <div>
+                  <h4 className="font-medium text-sm text-gray-500 mb-2">Features</h4>
+                  <ul className="space-y-1 text-sm">
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Account management
+                    </li>
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Fund transfers
+                    </li>
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Transaction ledger
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-sm text-gray-500 mb-2">Tech Stack</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Go</span>
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">PostgreSQL</span>
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">REST API</span>
+                  </div>
+                </div>
+              </div>
+
+              <a 
+                href="https://github.com/Doris-Mwito5/Banking" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
+              >
+                <FaGithub className="mr-2" /> View Project
+              </a>
+            </motion.div>
+
+            {/* Auth Service */}
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-400 hover:shadow-xl transition-all"
+            >
+              <div className="flex items-start mb-4">
+                <div className="bg-emerald-100 p-3 rounded-lg mr-4">
+                  <FaLock className="text-emerald-600 text-2xl" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800">Banking Auth Service</h3>
+                  <p className="text-emerald-500 text-sm">JWT Authentication</p>
+                </div>
+              </div>
+              
+              <p className="text-gray-600 mb-4">
+                Secure authentication microservice implementing JWT tokens, 
+                role-based access control, and refresh token rotation.
+              </p>
+              
+              <div className="grid grid-cols-2 gap-4 mb-5">
+                <div>
+                  <h4 className="font-medium text-sm text-gray-500 mb-2">Features</h4>
+                  <ul className="space-y-1 text-sm">
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Token generation
+                    </li>
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Role-based access
+                    </li>
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Secure hashing
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-sm text-gray-500 mb-2">Tech Stack</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Go</span>
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">JWT</span>
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">REST API</span>
+                  </div>
+                </div>
+              </div>
+
+              <a 
+                href="https://github.com/Doris-Mwito5/banking-auth" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
+              >
+                <FaGithub className="mr-2" /> View Project
+              </a>
+            </motion.div>
+
+            {/* Todo List App */}
+            <motion.div
+              whileHover={{ y: -5 }}
+              className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-300 hover:shadow-xl transition-all"
+            >
+              <div className="flex items-start mb-4">
+                <div className="bg-emerald-100 p-3 rounded-lg mr-4">
+                  <FaCheckCircle className="text-emerald-600 text-2xl" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800">Todo List App</h3>
+                  <p className="text-emerald-500 text-sm">Task Management</p>
+                </div>
+              </div>
+              
+              <p className="text-gray-600 mb-4">
+                Full-featured task management application with user authentication,
+                CRUD operations, and responsive Bootstrap UI.
+              </p>
+              
+              <div className="grid grid-cols-2 gap-4 mb-5">
+                <div>
+                  <h4 className="font-medium text-sm text-gray-500 mb-2">Features</h4>
+                  <ul className="space-y-1 text-sm">
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      User authentication
+                    </li>
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Task CRUD operations
+                    </li>
+                    <li className="flex items-center">
+                      <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
+                      Responsive design
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-medium text-sm text-gray-500 mb-2">Tech Stack</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Django</span>
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Bootstrap</span>
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">PostgreSQL</span>
+                    <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">REST API</span>
+                  </div>
+                </div>
+              </div>
+
+              <a 
+                href="https://github.com/Doris-Mwito5/todoList" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
+              >
+                <FaGithub className="mr-2" /> View Project
+              </a>
+            </motion.div>
           </div>
         </div>
-        
-        <p className="text-gray-600 mb-4">
-          Full-featured banking application implementing account management, 
-          fund transfers, transaction history, and balance verification.
-        </p>
-        
-        <div className="grid grid-cols-2 gap-4 mb-5">
-          <div>
-            <h4 className="font-medium text-sm text-gray-500 mb-2">Features</h4>
-            <ul className="space-y-1 text-sm">
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Account management
-              </li>
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Fund transfers
-              </li>
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Transaction ledger
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-medium text-sm text-gray-500 mb-2">Tech Stack</h4>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Go</span>
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">PostgreSQL</span>
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">REST API</span>
-            </div>
-          </div>
-        </div>
-
-        <a 
-          href="https://github.com/Doris-Mwito5/Banking" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
-        >
-          <FaGithub className="mr-2" /> View Project
-        </a>
-      </motion.div>
-
-      {/* Auth Service */}
-      <motion.div
-        whileHover={{ y: -5 }}
-        className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-400 hover:shadow-xl transition-all"
-      >
-        <div className="flex items-start mb-4">
-          <div className="bg-emerald-100 p-3 rounded-lg mr-4">
-            <FaLock className="text-emerald-600 text-2xl" />
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-800">Banking Auth Service</h3>
-            <p className="text-emerald-500 text-sm">JWT Authentication</p>
-          </div>
-        </div>
-        
-        <p className="text-gray-600 mb-4">
-          Secure authentication microservice implementing JWT tokens, 
-          role-based access control, and refresh token rotation.
-        </p>
-        
-        <div className="grid grid-cols-2 gap-4 mb-5">
-          <div>
-            <h4 className="font-medium text-sm text-gray-500 mb-2">Features</h4>
-            <ul className="space-y-1 text-sm">
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Token generation
-              </li>
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Role-based access
-              </li>
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Secure hashing
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-medium text-sm text-gray-500 mb-2">Tech Stack</h4>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Go</span>
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">JWT</span>
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">REST API</span>
-            </div>
-          </div>
-        </div>
-
-        <a 
-          href="https://github.com/Doris-Mwito5/banking-auth" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
-        >
-          <FaGithub className="mr-2" /> View Project
-        </a>
-      </motion.div>
-
-      {/* Todo List App */}
-      <motion.div
-        whileHover={{ y: -5 }}
-        className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-300 hover:shadow-xl transition-all"
-      >
-        <div className="flex items-start mb-4">
-          <div className="bg-emerald-100 p-3 rounded-lg mr-4">
-            <FaCheckCircle className="text-emerald-600 text-2xl" />
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-gray-800">Todo List App</h3>
-            <p className="text-emerald-500 text-sm">Task Management</p>
-          </div>
-        </div>
-        
-        <p className="text-gray-600 mb-4">
-          Full-featured task management application with user authentication,
-          CRUD operations, and responsive Bootstrap UI.
-        </p>
-        
-        <div className="grid grid-cols-2 gap-4 mb-5">
-          <div>
-            <h4 className="font-medium text-sm text-gray-500 mb-2">Features</h4>
-            <ul className="space-y-1 text-sm">
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                User authentication
-              </li>
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Task CRUD operations
-              </li>
-              <li className="flex items-center">
-                <FaCheckCircle className="text-emerald-500 mr-2 text-xs" />
-                Responsive design
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="font-medium text-sm text-gray-500 mb-2">Tech Stack</h4>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Django</span>
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">Bootstrap</span>
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">PostgreSQL</span>
-              <span className="px-2 py-1 bg-emerald-50 text-emerald-700 rounded-full text-xs">REST API</span>
-            </div>
-          </div>
-        </div>
-
-        <a 
-          href="https://github.com/Doris-Mwito5/todoList" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium"
-        >
-          <FaGithub className="mr-2" /> View Project
-        </a>
-      </motion.div>
-    </div>
-  </div>
-</section>
+      </section>
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-white text-center px-4 relative overflow-hidden">
@@ -490,7 +488,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-emerald-600 sm:text-4xl mb-4"
           >
-            Let's Connect
+            Let&apos;s Connect
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -499,7 +497,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-lg md:text-xl text-gray-700 mb-12 max-w-2xl mx-auto"
           >
-            I'm open to opportunities, collaborations, or just a friendly tech chat!
+            I&apos;m open to opportunities, collaborations, or just a friendly tech chat!
           </motion.p>
 
           <motion.div 
@@ -517,7 +515,7 @@ export default function Home() {
                 className="bg-gradient-to-br from-teal-50 to-emerald-50 p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-teal-100"
               >
                 <div className="flex flex-col items-center text-gray-800">
-                  <div className="bg-white p-3 rounded-full mb-3 shadow-inner">
+                  <div className="bg-white p-3 rounded-full shadow-inner">
                     {item.icon}
                   </div>
                   <h4 className="font-semibold text-lg mb-1 text-emerald-700">{item.title}</h4>
