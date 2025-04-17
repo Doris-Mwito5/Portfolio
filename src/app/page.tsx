@@ -61,14 +61,14 @@ export default function Home() {
     { 
       icon: <FaPhoneAlt className="text-2xl" />, 
       title: "Phone", 
-      content: "+254 712 345 678", 
-      link: "tel:+254712345678" 
+      content: "+254 718127539", 
+      link: "tel:+254718127539" 
     },
     { 
       icon: <FaEnvelope className="text-2xl" />, 
       title: "Email", 
-      content: "kawiramwito@example.com", 
-      link: "mailto:kawiramwito@example.com" 
+      content: "kawiramwito3@gmail.com", 
+      link: "mailto:kawiramwito3@gmail.com" 
     },
     { 
       icon: <div className="text-2xl">🌐</div>, 
@@ -565,7 +565,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="text-lg md:text-xl text-gray-700 mb-12 max-w-2xl mx-auto"
           >
-            I&apos;m open to opportunities, collaborations, or just a friendly tech chat!
+            I&apos;m open to opportunities and collaborations.
           </motion.p>
 
           <motion.div 
